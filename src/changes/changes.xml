@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+  <properties>
+    <title>Changes</title>
+    <author>JSR 354 Expert Group</author>
+  </properties>
+  <body>
+
+    <!-- types are add, fix, remove, update -->
+    <release version="0.1" date="TBC" description="Initial Build">
+      <action dev="cpheby" type="add">Imported Joda Money interface definitions as starting point</action>              
+    </release>
+
+  </body>
+</document>

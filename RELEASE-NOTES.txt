@@ -1,0 +1,12 @@
+
+JSR 354
+================================================
+JSR 354 provides an API for representing, transporting, and performing comprehensive calculations with Money and Currency. 
+See the home page for more details:
+ http://jcp.org/en/jsr/detail?id=354
+
+The release depends on Java 5.
+
+Feedback
+--------
+All feedback is welcomed - see http://java.net/projects/javamoney

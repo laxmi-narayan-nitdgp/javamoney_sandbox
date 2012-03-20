@@ -1,0 +1,18 @@
+Package: javax.money
+Extension-Name: javax.money
+Specification-Title: javax.money
+Specification-Vendor: javax.money
+Specification-Version: 0.1
+Implementation-Vendor: javax.money
+Implementation-Title: javax.money
+Implementation-Version: 0.1
+Implementation-Vendor-Id: javax.money
+Bundle-ManifestVersion: 2
+Bundle-Vendor: javax.money
+Bundle-Name: javax.money
+Bundle-SymbolicName: javax.money
+Bundle-Version: 0.1
+Export-Package: javax.money;version=0.1,
+ javax.money.format;version=0.1,
+Bundle-License: Apache Software License 2.0
+Bundle-DocURL: http://jcp.org/en/jsr/detail?id=354
