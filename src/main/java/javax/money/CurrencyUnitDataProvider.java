@@ -19,10 +19,11 @@ import java.util.List;
 
 /**
  * Provider for available currencies.
- *
- * @author Stephen Colebourne
+ * This doesn't need to be part of the API at this point, contains only protected or package-local classes.
+ * 
+ * @author Stephen Colebourne, Werner Keil
  */
-public abstract class CurrencyUnitDataProvider {
+abstract class CurrencyUnitDataProvider {
 
     /**
      * Registers all the currencies known by this provider.
