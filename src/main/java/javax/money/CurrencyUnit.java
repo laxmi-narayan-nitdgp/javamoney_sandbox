@@ -20,8 +20,6 @@ import java.util.Currency;
 import java.util.List;
 import java.util.Locale;
 
-import org.joda.convert.FromString;
-import org.joda.convert.ToString;
 
 /**
  * A unit of currency.
@@ -32,7 +30,7 @@ import org.joda.convert.ToString;
  * The set of loaded currencies is provided by an instance of {@link CurrencyUnitDataProvider}.
  * The provider used is determined by the system property {@code javax.money.CurrencyUnitDataProvider}
  * which should be the fully qualified class name of the provider. The default provider loads the first
- * resource named {@code /org/joda/money/MoneyData.csv} on the classpath.
+ * resource named {@code /MoneyData.csv} on the classpath.
  * <p>
  * This class is immutable and thread-safe.
  *
@@ -112,7 +110,6 @@ public final class CurrencyUnit implements Comparable<CurrencyUnit>, Serializabl
      * @return the singleton instance, never null
      * @throws IllegalCurrencyException if the currency is unknown
      */
-    @FromString
     public static CurrencyUnit of(String currencyCode) {
     	// TODO Not Implemented yet
     	return null;
@@ -401,7 +398,6 @@ public final class CurrencyUnit implements Comparable<CurrencyUnit>, Serializabl
      * @return the currency code, never null
      */
     @Override
-    @ToString
     public String toString() {
     	// TODO Not Implemented yet
     	return null;

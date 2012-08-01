@@ -19,9 +19,6 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import org.joda.convert.FromString;
-import org.joda.convert.ToString;
-
 /**
  * An amount of money with unrestricted decimal place precision.
  * <p>
@@ -309,7 +306,6 @@ public final class BigMoney implements BigMoneyProvider, Comparable<BigMoneyProv
      * @throws IllegalArgumentException if the string is malformed
      * @throws ArithmeticException if the amount is too large
      */
-    @FromString
     public static BigMoney parse(String moneyStr) {
     	// TODO Not Implemented yet
     	return null;
@@ -1480,7 +1476,6 @@ public final class BigMoney implements BigMoneyProvider, Comparable<BigMoneyProv
      * @return the string representation of this monetary value, never null
      */
     @Override
-    @ToString
     public String toString() {
     	// TODO Not Implemented yet
     	return null;
