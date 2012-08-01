@@ -74,6 +74,8 @@ public final class CurrencyUnit implements Comparable<CurrencyUnit>, Serializabl
     public static final CurrencyUnit CAD = of("CAD");
 
     /**
+     * TODO wouldn't a Set be more appropriate? (A collection that contains no duplicate elements.)
+     * 
      * Gets the list of all registered currencies.
      * <p>
      * This class only permits known currencies to be returned, thus this list is
