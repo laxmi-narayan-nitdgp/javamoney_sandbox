@@ -8,7 +8,7 @@
   <artifactId>jsr354</artifactId>
   <packaging>jar</packaging>
   <name>Java Money and Currency API</name>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <description>Java Money and Currency API</description>
   <url>http://jcp.org/en/jsr/detail?id=354</url>
   <issueManagement>
